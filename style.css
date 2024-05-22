@@ -186,3 +186,60 @@ a {
     font-size: 10px;
     color: var(--Very-Dark-Blue);
 }
+
+.early__access__container {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Desaturated-Blue);
+    height: 330px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.left__side__early__access__content {
+    max-width: 530px;
+}
+
+.left__side__early__access__content h2 {
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+.left__side__early__access__content p {
+    font-size: 17px
+}
+
+.right__side__early__access__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.right__side__early__access__content input{
+    padding: 16px;
+    font-size: 14px;
+    color: var(--Light-Gray);
+    font-family: "Open Sans", sans-serif;
+    width: 480px;
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 3px;
+}
+.right__side__early__access__content button {
+    padding: 14px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-radius: 3px;
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+    background-color: var(--Bright-Blue);
+    cursor: pointer;
+}
+
+@media  (min-width: 1440px) {
+   
+}
